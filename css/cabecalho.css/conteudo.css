@@ -1,0 +1,29 @@
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800vw;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30vw;
+    font-size: 2rem;
+}
+
+/*
+vw = view width
+vh = view hight*/
+
+/* BREAKPOINT DO CABECALHO */
+@media(max width:629px){
+    .
+}
+/* BREAKPOINT DO CABECALHO */
