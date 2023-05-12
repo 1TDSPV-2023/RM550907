@@ -110,4 +110,8 @@ const aElements  = document.querySelectorAll("a");
 // });
 
 
-const inputUser = document.querySelector("idPa");
+const inputUser = document.querySelector("#idUser");
+
+inputUser.addEventListener("focus", ()=>{
+    inputUser.setAttribute("style","outline-color:#ff0000;");
+});
