@@ -30,7 +30,7 @@ let listaDeUsuarios = [
     }
 ];
 
-localStorage.setItem( JSON.stringifylistaDeUsuarios);
+localStorage.setItem("listaUser" ,JSON.stringify(listaDeUsuarios));
 
 
 addEventListener("click", (evento)=>{
@@ -54,6 +54,10 @@ addEventListener("click", (evento)=>{
 
         }
 
+        let listaDeUsuariosRecuperada = JSON.parse (localStorage.getItem("listaUser"));
+
+
+        
         if(evento.target.id == "btnSubmit"){
         
         try{
